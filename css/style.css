@@ -1,0 +1,155 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+}
+
+.navbar ul{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    margin-left: auto;
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.navbar li .avatar{
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    border: none;
+}
+
+.main{
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    width: 40%;
+}
+
+.main-content .logo{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2rem;
+}
+
+.main-content .search input{
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+}
+
+input[type="text"]:hover{
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+.main-content .search{
+    margin-bottom: 2rem;
+}
+
+.btn{
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.btn a:hover{
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+.language{
+    width: 65%;
+    padding-left: 6rem;
+}
+
+.language ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+}
+
+.language ul li a{
+    text-decoration: none;
+}
+
+.language  a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+}
+
+.footer .location p{
+    line-height: 40px;
+    margin: 0 2rem;
+    font-size: 14px;
+}
+
+.sub-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.sub-footer ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+
+.sub-footer-1{
+    width: 25%;
+}
+
+.sub-footer-3{
+    width: 15%;
+}
